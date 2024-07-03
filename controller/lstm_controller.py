@@ -2,7 +2,6 @@ from fastapi import FastAPI,HTTPException
 import uvicorn
 app = FastAPI()
 
-
 @app.post('/LSTM')
 async def predict(range : int , migas : bool , nonmigas : bool):
     result = list()

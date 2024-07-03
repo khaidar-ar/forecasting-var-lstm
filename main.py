@@ -19,6 +19,7 @@ if selected == "Overview":
 if selected == "VAR":
     index.main(False)
     index.var_page()
+    
 if selected == "LSTM":
     index.main(False)
     index.lstm_page()
